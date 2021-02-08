@@ -21,6 +21,18 @@ body {
 	border-radius: 10px;
   }
   
+  #headertwo {
+	text-align: center;
+	background: black;
+	color: white;
+	position: fixed;
+	border-bottom: 2px solid #1abc9c;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	width: 100%;
+  }
+
   /* Increase the font size of the heading */
   .header h1 {
 	font-size: 40px;
@@ -65,11 +77,6 @@ body {
   }
 
   #myBtn {
-	display: none;
-	position: fixed;
-	bottom: 75px;
-	right: 20px;
-	z-index: 99;
 	font-size: 15px;
 	border: none;
 	outline: none;
@@ -78,6 +85,7 @@ body {
 	cursor: pointer;
 	padding: 10px;
 	border-radius: 4px;
+	float: right;
   }
   
   #myBtn:hover {
