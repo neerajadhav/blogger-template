@@ -18,6 +18,8 @@ body {
 	text-align: center;
 	background: #1abc9c;
 	color: white;
+	margin-bottom: 8px;
+	border-radius: 10px;
   }
   
   /* Increase the font size of the heading */
@@ -29,6 +31,11 @@ body {
   .navbar {
 	overflow: hidden;
 	background-color: #333;
+	bottom: 0;
+	left: 8;
+	margin-bottom: 8px;
+	position: fixed;
+	border-radius: 10px;
   }
   
   /* Style the navigation bar links */
@@ -41,11 +48,6 @@ body {
 	text-decoration: none;
   }
   
-  /* Right-aligned link */
-  .navbar a.right {
-	float: right;
-  }
-  
   /* Change color on hover */
   .navbar a:hover {
 	background-color: #ddd;
@@ -56,16 +58,12 @@ body {
 	color: rgb(0, 197, 0);
 }
 
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-	width: 40%;
+.content {
+	max-width: 500px;
+	margin: auto;
+	padding: 10px;
   }
-  
-  .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
+
 @media screen and (max-width: 1163px) {
 
 }
@@ -95,7 +93,7 @@ body {
 	
 	.bottom-navbar a {
 		display: block;
-		color: gray;
+		color: white;
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
