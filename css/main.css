@@ -26,7 +26,7 @@ body {
 	background: black;
 	color: #1abc9c;
 	position: fixed;
-	border-bottom: 2px solid #333;
+	border-bottom: 2px solid gray;
 	top: 0;
 	right: 0;
 	z-index: 99;
