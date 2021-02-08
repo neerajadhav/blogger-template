@@ -3,14 +3,11 @@
 body {
 	background-color: black;
 	color: white;
+	font-family: 'Maven Pro', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Acme', sans-serif;
-}
-
-p{
-	font-family: 'Maven Pro', sans-serif;
 }
 
 .title{
@@ -90,9 +87,11 @@ p{
 	text-align: center;
 	color: white;
 	border-radius: 10px;
-	background-image: url('https://images.unsplash.com/photo-1598130136089-4f46b70d72fe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	background-image: url('https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
 	background-size: cover;
 	text-shadow: 2px 2px black;
+	max-width: 500px;
+	margin: 0px auto;
   }
   
   #headertwo {
@@ -145,7 +144,7 @@ p{
 }
 
 .content {
-	max-width: 500px;
+	max-width: 650px;
 	margin: auto;
 	padding: 10px;
   }
