@@ -68,7 +68,7 @@ body {
 }
 
   .navbar a.active {
-	color: rgb(0, 197, 0);
+	color: #1abc9c;
 }
 
 .content {
@@ -137,6 +137,6 @@ body {
 	}
 	  
 	.bottom-navbar a.active {
-		color: rgb(0, 197, 0);
+		color: #1abc9c;
 	}
 }
