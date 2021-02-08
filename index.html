@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1.0, user-scalable=0">
-	<title> Responsive Bottom navigation </title> 
+	<title> My Website </title> 
     <link rel="stylesheet" href="css/main.css">
     <script src="https://use.fontawesome.com/aef602c7ec.js"></script>
 </head> 
@@ -14,26 +14,56 @@
 
     <div class="navbar">
         <a href="#" class="active"><i class="fa fa-lg fa-home"></i></a><br/>
-        <a href="#"><i class="fa fa-lg fa-play"></i></a><br/>
-        <a href="#"><i class="fa fa-lg fa-search"></i></a><br/>
+        <a onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-lg fa-play"></i></a><br/>
+        <a onclick="document.getElementById('id02').style.display='block'"><i class="fa fa-lg fa-search"></i></a><br/>
         <a href="#"><i class="fa fa-lg fa-user-circle"></i></a>
     </div>
 
+    <!--Modal id 01-->
+    <div id="id01" class="modal" onclick="document.getElementById('id01').style.display='none'">
+      <div class="modal-content">
+        <div class="container"> 
+          <span>YouTube</span>
+          <span onclick="document.getElementById('id01').style.display='none'"
+          class="close-btn"><b><i class="fa fa-close"></i></b></span><div style="clear: both;"></div>
+          <center>
+            <img src="https://yt3.ggpht.com/ytc/AAUvwnjVi3Ez2OAEOk5AOIgMZFTENh4PbfOGdP4AoWIS_g=s88-c-k-c0x00ffffff-no-rj" alt="neeraj adhav" style="border-radius: 100%;">
+          <h2>Neeraj Adhav</h2>
+          <a href="https://www.youtube.com/channel/UCahNVXLKLGOZikByl7pSGBA"><button>Go To Channel</button></a><br/><br/>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal id 02-->
+    <div id="id02" class="modal">
+      <div class="modal-content">
+        <div class="container"> 
+          <span>Search</span>
+          <span onclick="document.getElementById('id02').style.display='none'"
+          class="close-btn"><b><i class="fa fa-close"></i></b></span><div style="clear: both;"></div>
+          <center>
+            <input type="text" name="search" placeholder="Type Something">
+          </center>
+        </div>
+      </div>
+    </div>
+
     <div class="header">
-        <h1>My Website</h1>
+        <h1 class="title">My Website</h1>
         <p>A website created by me.</p>
     </div>
 
     <div id="headertwo">
-      <h2>My Website</h2>
+      <h2 class="title">My Website</h2>
     </div>
 
     <div class="bottom-navbar">
         <table>
             <tr>
                 <td><center><a href="#" class="active"><i class="fa fa-lg fa-home"></i></a></center></td>
-                <td><center><a href="#"><i class="fa fa-lg fa-play"></i></a></center></td>
-                <td><center><a href="#"><i class="fa fa-lg fa-search"></i></a></center></td>
+                <td><center><a onclick="document.getElementById('id01').style.display='block'" ><i class="fa fa-lg fa-play"></i></a></center></td>
+                <td><center><a onclick="document.getElementById('id02').style.display='block'" ><i class="fa fa-lg fa-search"></i></a></center></td>
                 <td><center><a href="#"><i class="fa fa-lg fa-user-circle"></i></a></center></td>
             </tr>
         </table>
@@ -55,7 +85,7 @@
         <p>Content inside this container is centered horizontally.</p>
       </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-lg fa-arrow-up"></i></button>
-      
+
 
       <br/><br/><br/><br/><br/> 
 </body> 
