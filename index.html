@@ -16,7 +16,7 @@
         <a href="#" class="active"><i class="fa fa-lg fa-home"></i></a><br/>
         <a onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-lg fa-play"></i></a><br/>
         <a onclick="document.getElementById('id02').style.display='block'"><i class="fa fa-lg fa-search"></i></a><br/>
-        <a href="#"><i class="fa fa-lg fa-user-circle"></i></a>
+        <a onclick="document.getElementById('id03').style.display='block'"><i class="fa fa-lg fa-user-circle"></i></a>
     </div>
 
     <!--Modal id 01-->
@@ -48,6 +48,26 @@
         </div>
       </div>
     </div>
+
+
+    <!--Modal id 03-->
+    <div id="id03" class="modal">
+      <div class="modal-content">
+        <div class="container"> 
+          <span>Profile</span>
+          <span onclick="document.getElementById('id03').style.display='none'"
+          class="close-btn"><b><i class="fa fa-close"></i></b></span><div style="clear: both;"></div>
+          <center>
+
+            <div class="profile-card" style="background: url('https://images.unsplash.com/photo-1612572767699-093823e475af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80'); background-size: 100% 100%; background-repeat: no-repeat;">,
+              <div class="dp" style="background: url('https://images.unsplash.com/photo-1575844261401-d69721eb5044?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZXZpbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); background-size: cover; background-repeat: no-repeat;"></div>
+              <h2> Neeraj Adhav </h2>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+
 
     <div class="header">
         <h1 class="title" style="font-size: 60px;">My Website</h1>
@@ -81,7 +101,7 @@
                 <td><center><a href="#" class="active"><i class="fa fa-lg fa-home"></i></a></center></td>
                 <td><center><a onclick="document.getElementById('id01').style.display='block'" ><i class="fa fa-lg fa-play"></i></a></center></td>
                 <td><center><a onclick="document.getElementById('id02').style.display='block'" ><i class="fa fa-lg fa-search"></i></a></center></td>
-                <td><center><a href="#"><i class="fa fa-lg fa-user-circle"></i></a></center></td>
+                <td><center><a onclick="document.getElementById('id03').style.display='block'"><i class="fa fa-lg fa-user-circle"></i></a></center></td>
             </tr>
         </table>
       </div>
@@ -92,6 +112,8 @@
 
 
         <!--blog Content starts here-->
+
+         
 
 
         <div class="blog-card">

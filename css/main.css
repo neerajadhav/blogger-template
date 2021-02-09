@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
 	background-color: black;
@@ -7,7 +8,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Acme', sans-serif;
+	/*font-family: 'Acme', sans-serif;*/
+	font-family: 'Lobster', cursive;
 }
 
 .title{
@@ -243,6 +245,27 @@ h1, h2, h3, h4, h5, h6{
 	height: 150px;
 	background-size: cover;
 	border-radius: 10px;
+}
+
+.profile-card{
+			background: black;
+			width: 100%;
+			height: 250px;
+			margin: 30px auto;
+			border-radius: 5px;
+			padding: 20px 0px 20px 0px;
+}
+
+.profile-card h2{
+			color: white;
+			text-shadow: 2px 2px black;
+}
+
+.dp{
+			width: 150px;
+			height: 150px;
+			border-radius: 100%;
+			border: 5px solid black;
 }
 
 @media screen and (max-width: 1163px) {
