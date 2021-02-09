@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Maven+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 body {
 	background-color: black;
@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3, h4, h5, h6{
 	/*font-family: 'Acme', sans-serif;*/
-	font-family: 'Lobster', cursive;
+	font-family: 'Courgette', cursive;
 }
 
 .title{
