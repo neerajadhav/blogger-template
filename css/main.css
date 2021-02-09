@@ -12,6 +12,32 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Courgette', cursive;
 }
 
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+  }
+
 .title{
 	font-family: 'Dancing Script', cursive;
 }
