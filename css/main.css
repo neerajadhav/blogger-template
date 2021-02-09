@@ -170,6 +170,14 @@ h1, h2, h3, h4, h5, h6{
 	border-bottom: 1px dashed gray;
 }
 
+.blog-card a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	background: rgb(0, 132, 255);
+	border-radius: 5px;
+}
+
 .blog-card table{
 	width: 100%;
 }
