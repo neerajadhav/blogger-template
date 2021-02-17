@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6{
   .fa-facebook {
 	background: #3B5998;
 	color: white;
-	padding: 20px;
+	padding: 15px;
 	font-size: 30px;
 	width: 50px;
 	text-align: center;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6{
   .fa-twitter {
 	background: #55ACEE;
 	color: white;
-	padding: 20px;
+	padding: 15px;
 	font-size: 30px;
 	width: 50px;
 	text-align: center;
@@ -115,9 +115,9 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	color: white;
 	border-radius: 10px;
-	background-image: url('https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	background-image: url('https://images.unsplash.com/photo-1610916147297-50ee9bd838e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
 	background-size: cover;
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px black;
 	max-width: 500px;
 	margin: 0px auto;
   }
